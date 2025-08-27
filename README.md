@@ -19,3 +19,7 @@ jbang PdfCombiner.java /some/directory/path/OutputFileName.pdf /some/directory/p
 ```
 jbang MergePdfs.java /some/directory/path/OutputFileName.pdf /some/directory/path/output 
 ```
+* Run from URL, e.g:
+```
+jbang https://github.com/leandremucyo/scripts/blob/main/MergePdfs.java /some/directory/path/OutputFileName.pdf /some/directory/path/output 
+```
