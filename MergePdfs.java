@@ -25,7 +25,7 @@ public class MergePdfs {
      */
     public static void main(String[] args) {
         if (args.length != 2) {
-            System.err.println("Usage: java MergeFolderPdfs <dest.pdf> <sourceFolder>");
+            System.err.println("Usage: jbang MergePdfs.java <dest.pdf> <sourceFolder>");
             System.exit(1);
         }
         String dest = args[0];
